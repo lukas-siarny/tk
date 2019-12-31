@@ -9,7 +9,7 @@
 </head>
 <body>
 	<header>
-		<div class="header-wrapper">
+		<div class="header-wrapper container">
 			<div class="logo">
 				<a href="" title="Travelking">
 					<i class="fas fa-crown"></i>
@@ -34,7 +34,7 @@
 	</header>
 
 	<nav class="desktop-navigation">
-		<div class="navbar-wrapper">
+		<div class="navbar-wrapper container">
 			<ul class="navbar-mainmenu">
 
 				<!-- Mainmenu - VŠE -->
@@ -361,7 +361,7 @@
 	</nav>
 
 	<!-- Mobile navigation -->
-	<nav class="navbar-mobile navbar-wrapper">
+	<nav class="navbar-mobile container">
 		<input type="checkbox" class="checkbox-hamburger" id="checkbox-hamburger">
 		<label for="checkbox-hamburger" class="hamburger-label"></label>
 		<div class="hamburger">
@@ -505,5 +505,621 @@
 		<div class="mobile-background"></div>
 	</nav>
 
+	<!-- Choose destination -->
+	<section class="choose-destination container">
+		<h2>Vyberte si jedinečný pobyt</h2>
+
+		<form class="choose-destination-box">
+			<div class="choose-destination-item">
+				<h3>TYP POBYTU</h3>
+				<div class="choose-destination-dropdown-wrapper">
+					<input type="checkbox" class="choose-destination-dropdown-checkbox">
+					<div class="choose-destination-dropdown-header">
+						<span>Vyberte typ pobytu</span>
+						<i class="fas fa-chevron-circle-down"></i>
+					</div>
+					<div class="choose-destination-dropdown-checked checked-typ-pobytu">
+						<ul>
+							<li>
+								<div class="destination-type-big">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-mountains">
+									<label for="destination-mountains" class="destination-mountains-label">	
+										<span class="destination-type-checkbox-new"></span>
+										Hory
+									</label>
+								</div>
+								<div class="destination-type-big">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-skiing">
+									<label for="destination-skiing" class="destination-skiing-label">
+										<span class="destination-type-checkbox-new"></span>
+										Lyžovaní
+									</label>
+								</div>									
+							</li>
+							<li>
+								<label for="destination-welness" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-welness">
+									<span>
+										<i class="fas fa-spa"></i> Welness
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>	
+							<li>
+								<label class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox">
+									<span>
+										<i class="far fa-heart"></i> Lázně
+									</span>		
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>	
+							<li>
+								<label for="destination-romanticke" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-romanticke">
+									<span>
+										<i class="far fa-heart"></i> Romantické
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>	
+							<li>
+								<label for="destination-tkpremium" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-tkpremium">
+									<span>
+										<i class="far fa-gem"></i> Travelking PREMIUM
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>																											<li>
+								<label for="destination-proseniory" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-proseniory">
+									<span>
+										<i class="fas fa-blind"></i> Pro seniory
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>	
+							<li>
+								<label for="destination-prorodiny" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-prorodiny">
+									<span>
+										<i class="fas fa-users"></i> Pro rodiny
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>	
+							<li>
+								<label for="destination-tlazne" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-tlazne">
+									<span>
+										<i class="fas fa-hot-tub"></i> Termální lázně
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>	
+							<li>
+								<label for="destination-vpobyty" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-vpobyty">
+									<span>
+										<i class="fas fa-wine-bottle"></i> Vinařské pobyty
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>														
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="choose-destination-item">
+				<h3>LOKALITA</h3>
+				<div class="choose-destination-dropdown-wrapper">
+					<input type="checkbox" class="choose-destination-dropdown-checkbox">
+					<div class="choose-destination-dropdown-header">
+						<span>Lokalita</span>
+						<i class="fas fa-chevron-circle-down"></i>
+					</div>
+					<div class="choose-destination-dropdown-checked">
+						<ul>
+							<li>
+								<div class="destination-type-big">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-mountains2">
+									<label for="destination-mountains2" class="destination-mountains-label">	
+										<span class="destination-type-checkbox-new"></span>
+										Hory
+									</label>
+								</div>
+								<div class="destination-type-big">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-skiing2">
+									<label for="destination-skiing2" class="destination-skiing-label">
+										<span class="destination-type-checkbox-new"></span>
+										Lyžovaní
+									</label>
+								</div>									
+							</li>
+							<li>
+								<label for="destination-welness2" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-welness2">
+									<span>
+										<i class="fas fa-spa"></i> Welness
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>	
+							<li>
+								<label class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox">
+									<span>
+										<i class="far fa-heart"></i> Lázně
+									</span>		
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>	
+							<li>
+								<label for="destination-romanticke2" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-romanticke2">
+									<span>
+										<i class="far fa-heart"></i> Romantické
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>	
+							<li>
+								<label for="destination-tkpremium2" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-tkpremium2">
+									<span>
+										<i class="far fa-gem"></i> Travelking PREMIUM
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>																											<li>
+								<label for="destination-proseniory2" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-proseniory2">
+									<span>
+										<i class="fas fa-blind"></i> Pro seniory
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>	
+							<li>
+								<label for="destination-prorodiny2" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-prorodiny2">
+									<span>
+										<i class="fas fa-users"></i> Pro rodiny
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>	
+							<li>
+								<label for="destination-tlazne2" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-tlazne2">
+									<span>
+										<i class="fas fa-hot-tub"></i> Termální lázně
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>	
+							<li>
+								<label for="destination-vpobyty2" class="destination-type-label">
+									<input type="checkbox" class="destination-type-checkbox" id="destination-vpobyty2">
+									<span>
+										<i class="fas fa-wine-bottle"></i> Vinařské pobyty
+									</span>	
+									<span class="destination-type-checkbox-new"></span>
+								</label>
+							</li>														
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="choose-destination-item">
+				<div class="choose-destination-button-wrapper">
+					<button type="button" class="choose-destination-button">
+						<i class="fas fa-globe-europe"></i> 
+						Zobrazit nabídku pobytů
+					</button>
+				</div>	
+			</div>
+		</form>		
+
+	</section>
+
+	<!-- Slider -->
+	<section class="slider container">
+		<a href=""><img src="images/slider.jpg" alt="Tu by mal byt funkčný slider"></a>	
+	</section>
+
+	<!-- Discover -->
+	<section class="discover container">
+		<h2>Objevte kouzlo cestování</h2>
+		<p>Jsme specialisté na pobyty ve střední a jižní Evropě</p>
+
+		<div class="discover-items">
+			<div class="discover-item">
+				<a href="">
+					<div class="discover-item-col">
+						<img src="images/cesko.jpg" alt="Česko">
+					</div>
+					<div class="discover-item-col">
+						<h3><i class="fas fa-map-marker-alt"></i> Česko</h3>
+						<p>301 nabídek &gt;</p>
+					</div>
+				</a>	
+			</div>
+
+			<div class="discover-item">
+				<a href="">
+					<div class="discover-item-col">
+						<img src="images/slovensko.jpg" alt="Slovensko">
+					</div>
+					<div class="discover-item-col">
+						<h3><i class="fas fa-map-marker-alt"></i> Slovensko</h3>
+						<p>301 nabídek &gt;</p>
+					</div>
+				</a>	
+			</div>
+
+			<div class="discover-item">
+				<a href="">
+					<div class="discover-item-col">
+						<img src="images/cesko.jpg" alt="Česko">
+					</div>
+					<div class="discover-item-col">
+						<h3><i class="fas fa-map-marker-alt"></i> Maďarsko</h3>
+						<p>301 nabídek &gt;</p>
+					</div>
+				</a>	
+			</div>
+
+			<div class="discover-item">
+				<a href="">
+					<div class="discover-item-col">
+						<img src="images/slovensko.jpg" alt="Slovensko">
+					</div>
+					<div class="discover-item-col">
+						<h3><i class="fas fa-map-marker-alt"></i> Další</h3>
+						<p>301 nabídek &gt;</p>
+					</div>
+				</a>	
+			</div>									
+		</div>
+
+		<div class="discover-countries">
+			<div class="discover-country border-bottom">
+				<a href="">
+					<div class="discover-country-flag flag-austria"></div>
+					<h3>Rakousko</h3>
+				</a>	
+			</div>
+			<div class="discover-country border-bottom">
+				<a href="">
+					<div class="discover-country-flag flag-poland"></div>
+					<h3>Polsko</h3>
+				</a>	
+			</div>	
+			<div class="discover-country border-bottom">
+				<a href="">
+					<div class="discover-country-flag flag-italy"></div>
+					<h3>Itálie</h3>
+				</a>	
+			</div>
+			<div class="discover-country border-bottom2">
+				<a href="">
+					<div class="discover-country-flag flag-croatia"></div>
+					<h3>Chorvatsko</h3>
+				</a>	
+			</div>	
+			<div class="discover-country border-bottom3">
+				<a href="">
+					<div class="discover-country-flag flag-germany"></div>
+					<h3>Německo</h3>
+				</a>	
+			</div>
+			<div class="discover-country">
+				<a href="">
+					<div class="discover-country-flag flag-slovenia"></div>
+					<h3>Slovinsko</h3>
+				</a>	
+			</div>									
+		</div>
+	</section>
+
+	<!-- Favorite-->
+	<section class="favorites container">
+		<h2>Vaše oblíbené kategorie</h2>
+		<p>Neslevujte ze svých přání, vyberte si pobyt podle svých snů</p>
+		<div class="favorites-box">
+			<figure>
+				<a href="">
+					<img src="images/welness.jpg" alt="Welness">
+					<figcaption>Welness</figcaption>
+				</a>	
+			</figure>
+			<figure>
+				<a href="">
+					<img src="images/welness.jpg" alt="Lázně">
+					<figcaption>Lázně</figcaption>
+				</a>	
+			</figure>
+			<figure>
+				<a href="">
+					<img src="images/hory.jpg" alt="Hory">
+					<figcaption>Hory</figcaption>
+				</a>	
+			</figure>
+			<figure>
+				<a href="">
+					<img src="images/welness.jpg" alt="Romantické">
+					<figcaption>Romantické</figcaption>
+				</a>	
+			</figure>
+			<figure>
+				<a href="">
+					<img src="images/hory.jpg" alt="Travelking PREMIUM">
+					<figcaption>Travelking&nbsp;PREMIUM</figcaption>
+				</a>	
+			</figure>
+			<figure>
+				<a href="">
+					<img src="images/hory.jpg" alt="Pro rodiny">
+					<figcaption>Pro&nbsp;rodiny</figcaption>
+				</a>	
+			</figure>			
+		</div>
+	</section>	
+
+	<!-- News-->
+	<section class="news container">
+		<div class="news-header">
+			<span>
+				<h2>Novinky</h2>
+				<p>Podívejte se na nejnovější pobyty na Travelkingu</p>
+			</span>
+			<button class="button-newest">Zobrazit nejnovější pobyty</button>	
+		</div>	
+		<div class="news-box">
+			<figure>
+				<a href="">
+					<img src="images/news.jpg" alt="News">
+					<figcaption>
+						<h3>Komárom s neomezenými termály + sauna</h3>
+						<p>Thermál Hotel ***</p>
+						<p><i class="fas fa-map-marker-alt"></i> Maďarsko - Jižní Slovensko</p>
+						<p><i class="far fa-smile"></i> <strong>44,46/5  Skvělé</strong></p>
+						</p>
+						<span>3 090 Kč</span>
+					</figcaption>
+				</a>	
+			</figure>		
+			<figure>
+				<a href="">
+					<img src="images/news.jpg" alt="News">
+					<figcaption>
+						<h3>Komárom s neomezenými termály + sauna</h3>
+						<p>Thermál Hotel ***</p>
+						<p><i class="fas fa-map-marker-alt"></i> Maďarsko - Jižní Slovensko</p>
+						<p><i class="far fa-smile"></i> <strong>44,46/5  Skvělé</strong></p>
+						</p>
+						<span>3 090 Kč</span>
+					</figcaption>
+				</a>	
+			</figure>	
+			<figure>
+				<a href="">
+					<img src="images/news.jpg" alt="News">
+					<figcaption>
+						<h3>Komárom s neomezenými termály + sauna</h3>
+						<p>Thermál Hotel ***</p>
+						<p><i class="fas fa-map-marker-alt"></i> Maďarsko - Jižní Slovensko</p>
+						<p><i class="far fa-smile"></i> <strong>44,46/5  Skvělé</strong></p>
+						</p>
+						<span>3 090 Kč</span>
+					</figcaption>
+				</a>	
+			</figure>	
+			<figure>
+				<a href="">
+					<img src="images/news.jpg" alt="News">
+					<figcaption>
+						<h3>Komárom s neomezenými termály + sauna</h3>
+						<p>Thermál Hotel ***</p>
+						<p><i class="fas fa-map-marker-alt"></i> Maďarsko - Jižní Slovensko</p>
+						<p><i class="far fa-smile"></i> <strong>44,46/5  Skvělé</strong></p>
+						</p>
+						<span>3 090 Kč</span>
+					</figcaption>
+				</a>	
+			</figure>											
+		</div>
+	</section>
+
+	<!-- Beste selling-->
+	<section class="news container">
+		<div class="news-header">
+			<span>
+				<h2>Nejprodávanější pobyty</h2>
+				<p>Inspirujte se těmi nejprodávanějšími pobyty za poslední týden</p>
+			</span>
+			<button class="button-newest">Zobrazit nejprodávanější pobyty</button>	
+		</div>	
+		<div class="news-box">
+			<figure>
+				<a href="">
+					<img src="images/news.jpg" alt="News">
+					<figcaption>
+						<h3>Komárom s neomezenými termály + sauna</h3>
+						<p>Thermál Hotel ***</p>
+						<p><i class="fas fa-map-marker-alt"></i> Maďarsko - Jižní Slovensko</p>
+						<p><i class="far fa-smile"></i> <strong>44,46/5  Skvělé</strong></p>
+						</p>
+						<span>3 090 Kč</span>
+					</figcaption>
+				</a>	
+			</figure>		
+			<figure>
+				<a href="">
+					<img src="images/news.jpg" alt="News">
+					<figcaption>
+						<h3>Komárom s neomezenými termály + sauna</h3>
+						<p>Thermál Hotel ***</p>
+						<p><i class="fas fa-map-marker-alt"></i> Maďarsko - Jižní Slovensko</p>
+						<p><i class="far fa-smile"></i> <strong>44,46/5  Skvělé</strong></p>
+						</p>
+						<span>3 090 Kč</span>
+					</figcaption>
+				</a>	
+			</figure>	
+			<figure>
+				<a href="">
+					<img src="images/news.jpg" alt="News">
+					<figcaption>
+						<h3>Komárom s neomezenými termály + sauna</h3>
+						<p>Thermál Hotel ***</p>
+						<p><i class="fas fa-map-marker-alt"></i> Maďarsko - Jižní Slovensko</p>
+						<p><i class="far fa-smile"></i> <strong>44,46/5  Skvělé</strong></p>
+						</p>
+						<span>3 090 Kč</span>
+					</figcaption>
+				</a>	
+			</figure>	
+			<figure>
+				<a href="">
+					<img src="images/news.jpg" alt="News">
+					<figcaption>
+						<h3>Komárom s neomezenými termály + sauna</h3>
+						<p>Thermál Hotel ***</p>
+						<p><i class="fas fa-map-marker-alt"></i> Maďarsko - Jižní Slovensko</p>
+						<p><i class="far fa-smile"></i> <strong>44,46/5  Skvělé</strong></p>
+						</p>
+						<span>3 090 Kč</span>
+					</figcaption>
+				</a>	
+			</figure>											
+		</div>
+	</section>
+
+	<!-- Showvcase -->
+	<section class="showcase">
+		<div class="container-narrow">				
+			<i class="fas fa-crown"></i>
+			<p>
+			Vybíráme ty nejvýhodnější pobyty ve střední a jižní Evropě a především nasloucháme potřebám a přáním každého z vás.<br>
+			A co je náš hlavní cíl?<br>
+			Zprostředkovat radost, kterou cestování přináší, co nejvíce lidem.<br>
+			<span>Travelking</span>
+			</p>
+		</div>
+	</section>
+
+	<!-- Ratings -->
+	<section class="ratings container">
+		<h2>Hodnocení zákazníků</h2>
+		<p>Podívejte se, kde byli naši zákazníci spokojení</p>
+		<div class="ratings-box">
+			<div class="rating">
+				<a href="">
+					<figure>
+						<img src="images/rating.jpg" alt="Rating">
+						<figcaption>
+							Park Inn **** Sárvár se vstupem do lázní
+						</figcaption>
+					</figure>
+				</a>
+				<div class="rating-smile"><i class="far fa-smile"></i></div>
+				<h3>
+					<strong>Vynikající</strong><br>
+					(Alena M.)
+				</h3>
+				<p>V hotelu jsme byli letos potřetí a všechny služby byly opět na vysoké úrovni. Strava výborná, chutná, velký výběr, personál hotelu vstřícný, hotel celkově perfektní. Lázně nemají chybu. Kromě relaxu j...</p>
+			</div>
+
+			<div class="rating">
+				<a href="">
+				<figure>
+					<img src="images/rating.jpg" alt="Rating">
+					<figcaption>
+						Park Inn **** Sárvár se vstupem do lázní
+					</figcaption>
+				</figure>
+				</a>
+				<div class="rating-smile"><i class="far fa-smile"></i></div>				
+				<h3>
+					<strong>Vynikající</strong><br>
+					(Alena M.)
+				</h3>
+				<p>V hotelu jsme byli letos potřetí a všechny služby byly opět na vysoké úrovni. Strava výborná, chutná, velký výběr, personál hotelu vstřícný, hotel celkově perfektní. Lázně nemají chybu. Kromě relaxu j...</p>
+			</div>
+
+			<div class="rating">
+				<a href="">
+					<figure>
+						<img src="images/rating.jpg" alt="Rating">
+						<figcaption>
+							Park Inn **** Sárvár se vstupem do lázní
+						</figcaption>
+					</figure>
+				</a>
+				<div class="rating-smile"><i class="far fa-smile"></i></div>				
+				<h3>
+					<strong>Vynikající</strong><br>
+					(Alena M.)
+				</h3>
+				<p>V hotelu jsme byli letos potřetí a všechny služby byly opět na vysoké úrovni. Strava výborná, chutná, velký výběr, personál hotelu vstřícný, hotel celkově perfektní. Lázně nemají chybu. Kromě relaxu j...</p>
+			</div>
+
+			<div class="rating">
+				<a href="">
+					<figure>
+						<img src="images/rating.jpg" alt="Rating">
+						<figcaption>
+							Park Inn **** Sárvár se vstupem do lázní
+						</figcaption>
+					</figure>
+				</a>
+				<div class="rating-smile"><i class="far fa-smile"></i></div>				
+				<h3>
+					<strong>Vynikající</strong><br>
+					(Alena M.)
+				</h3>
+				<p>V hotelu jsme byli letos potřetí a všechny služby byly opět na vysoké úrovni. Strava výborná, chutná, velký výběr, personál hotelu vstřícný, hotel celkově perfektní. Lázně nemají chybu. Kromě relaxu j...</p>
+			</div>
+
+			<div class="rating">
+				<a href="">
+					<figure>
+						<img src="images/rating.jpg" alt="Rating">
+						<figcaption>
+							Park Inn **** Sárvár se vstupem do lázní
+						</figcaption>
+					</figure>
+				</a>
+				<div class="rating-smile"><i class="far fa-smile"></i></div>					
+				<h3>
+					<strong>Vynikající</strong><br>
+					(Alena M.)
+				</h3>
+				<p>V hotelu jsme byli letos potřetí a všechny služby byly opět na vysoké úrovni. Strava výborná, chutná, velký výběr, personál hotelu vstřícný, hotel celkově perfektní. Lázně nemají chybu. Kromě relaxu j...</p>
+			</div>
+
+			<div class="rating">
+				<a href="">
+					<figure>
+						<img src="images/rating.jpg" alt="Rating">
+						<figcaption>
+							Park Inn **** Sárvár se vstupem do lázní
+						</figcaption>
+					</figure>
+				</a>
+				<div class="rating-smile"><i class="far fa-smile"></i></div>				
+				<h3>
+					<strong>Vynikající</strong><br>
+					(Alena M.)
+				</h3>
+				<p>V hotelu jsme byli letos potřetí a všechny služby byly opět na vysoké úrovni. Strava výborná, chutná, velký výběr, personál hotelu vstřícný, hotel celkově perfektní. Lázně nemají chybu. Kromě relaxu j...</p>
+			</div>
+		</div>										
+	</section>
 </body>
 </html>  
