@@ -1870,6 +1870,7 @@ ul.submenu-vse{
 
 .rating p{
 	font-size: 0.85rem;
+	padding-bottom: 20px;
 }
 
 @media(max-width: 1024px){
